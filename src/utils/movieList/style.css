@@ -1,0 +1,45 @@
+.movieBoxes {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.name{
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 150px;
+}
+.imageContent img{
+    width: 150px;
+    border-radius: 5px;
+}
+.imageContent img:after{
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+.imageContent img:hover:after{
+    opacity: .5;
+}
+.title{
+    color: #fff;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.imageContent{
+    position: relative;
+}
+.num{
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 0;
+}

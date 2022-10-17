@@ -1,0 +1,23 @@
+.imageContent{
+    position: relative;
+}
+.detail{
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.detail p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.sectionBox .imageContent img{
+    width: 290px;
+    margin: 5px;
+}
+.sectionBoxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

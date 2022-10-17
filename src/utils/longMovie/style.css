@@ -1,0 +1,10 @@
+.long-content img{
+    width: 290px;
+}
+.long{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    color: #ffff;
+}

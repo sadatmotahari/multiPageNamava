@@ -1,0 +1,9 @@
+.kids img{
+    border-radius: 50%;
+    width: 235px;
+}
+.kids-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

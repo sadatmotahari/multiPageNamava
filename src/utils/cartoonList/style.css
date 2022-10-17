@@ -1,0 +1,47 @@
+.cartoon-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cartoon-name{
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 150px;
+}
+.cartoon-name h3{
+    color: #000;
+}
+.cartoon-imageContent img{
+    width: 230px;
+    border-radius: 5px;
+}
+.cartoon-imageContent img:after{
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+.cartoon-imageContent img:hover:after{
+    opacity: .5;
+}
+.cartoon-title{
+    color: #000;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.imageContent{
+    position: relative;
+}
+.num{
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 0;
+}
