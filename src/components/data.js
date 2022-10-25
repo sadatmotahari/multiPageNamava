@@ -2,60 +2,105 @@ export const special = [
     {
         name:"شبکه‌ی مخفی زنان",
         image:"https://static.namava.ir/Content/Upload/Images/28a15bef-6491-44d4-9b5b-e7644d26570d.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1401",
+        rating: "87%"
     },
     {
         name:"لامینور",
         image:"https://static.namava.ir/Content/Upload/Images/8add4364-6416-4c44-b8f9-975eca4a3d0b.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "1398",
+        rating: "68%"
     },
     {
         name:"آنتن",
         image:"https://static.namava.ir/Content/Upload/Images/de41b9f5-e6e6-45cc-bf9d-7f88ec429ffa.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1401",
+        rating: "88%"
     },
     {
         name:"مورتال کامبت",
         image:"https://static.namava.ir/Content/Upload/Images/283e366b-ab37-44b9-a617-8010699ccee0.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "93%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"روزی روزگاری مریخ",
         image:"https://static.namava.ir/Content/Upload/Images/71360ded-609c-47bc-af91-b1ece23453ca.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1401",
+        rating: "87%"
     },
     {
         name:"وسپر",
         image:"https://static.namava.ir/Content/Upload/Images/47c7e2ce-5c15-486a-8c86-5652630726e9.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "68%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"حقه یا هدیه اسکوبی دو",
         image:"https://static.namava.ir/Content/Upload/Images/9bde02b3-9d59-4b06-8562-928b0b28c91e.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "96%",
+        doobleh: "دوبله نماوا"
     }
   ]
 export const namava = [
     {
         name:"آنتن",
         image:"https://static.namava.ir/Content/Upload/Images/31ae30d7-9b50-49d2-af93-b9976dd2d5d9.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "1401",
+        rating: "88%",
     },
     {
         name:"روز بلوا",
         image:"https://static.namava.ir/Content/Upload/Images/2a7be2ed-bddc-45f2-9f58-ab09ab54911e.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "1398",
+        rating: "82%",
     },
     {
         name:"قورباغه",
         image:"https://static.namava.ir/Content/Upload/Images/4848115b-3f26-478c-a65a-c2eb170312a4.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "1399",
+        rating: "92%",
     },
     {
         name:"سیاوش",
         image:"https://static.namava.ir/Content/Upload/Images/9f22905b-f01d-4a43-a124-67c7ebe7df0e.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "1399",
+        rating: "85%",
     },
     {
         name:"خسوف",
         image:"https://static.namava.ir/Content/Upload/Images/270dda56-3c7f-48f2-bd9e-e3d79d3c407e.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "1400",
+        rating: "79%",
     },
     {
         name:"همرفیق",
         image:"https://static.namava.ir/Content/Upload/Images/c78164bc-d1af-406c-a2db-74a74af1f161.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "1399",
+        rating: "87%",
     },
     {
         name:"گیسو",
         image:"https://static.namava.ir/Content/Upload/Images/0063457f-7e2d-47e1-8838-3468d3a805e5.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "1399",
+        rating: "77%",
     }
   ]
   export const live = [
@@ -92,60 +137,115 @@ export const namava = [
     {
         name:"حقه یا هدیه اسکوبی دو",
         image:"https://static.namava.ir/Content/Upload/Images/9bde02b3-9d59-4b06-8562-928b0b28c91e.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "96%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"گنج دزدان دریایی جزیره آداک",
         image:"https://static.namava.ir/Content/Upload/Images/c4e1d3ad-1da5-4592-afcd-91a73d0ec9a3.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2022",
+        sub: "زیرنویس"
     },
     {
         name:"کنستانتین، خانه اسرار",
         image:"https://static.namava.ir/Content/Upload/Images/7f6ad2ba-709e-4860-a788-6b08fed3fe18.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "86%",
+        sub: "زیرنویس"
     },
     {
         name:"وینچسترها",
         image:"https://static.namava.ir/Content/Upload/Images/946d762f-167d-4e9a-877f-54f4d6530084.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2022",
+        rating: "92%",
+        sub: "زیرنویس"
     },
     {
         name:"مزرعه شهر للوبی",
         image:"https://static.namava.ir/Content/Upload/Images/707a8356-8859-453a-be1c-4f8b866e2cad.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2022",
+        rating: "71%",
+        sub: "زیرنویس"
     },
     {
         name:"گریمکاتی",
         image:"https://static.namava.ir/Content/Upload/Images/b6343b84-f2ef-4906-83d3-c11bbb284d2a.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "81%",
+        sub: "زیرنویس"
     },
     {
         name:"وسپر",
         image:"https://static.namava.ir/Content/Upload/Images/47c7e2ce-5c15-486a-8c86-5652630726e9.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "68%",
+        doobleh: "دوبله نماوا"
     }
   ]
   export const best = [
     {
         name:"شگفت انگیزان",
         image:"https://static.namava.ir/Content/Upload/Images/976997ab-b7f9-43eb-9d8a-00e51a29d7ce.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2004",
+        rating: "90%",
+        doobleh: "دوبله فارسی"
     },
     {
         name:"وراثت",
         image:"https://static.namava.ir/Content/Upload/Images/3a02e3d2-892d-44ac-b06e-a89b6e4a2fbc.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2018",
+        rating: "84%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"اتفاقات عجیب",
         image:"https://static.namava.ir/Content/Upload/Images/59223e4a-070b-46b8-80d8-fc48815fdc91.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2016",
+        rating: "95%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"آرکین",
         image:"https://static.namava.ir/Content/Upload/Images/f0171133-ad80-4701-9d4a-3d5043c13bae.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2021",
+        rating: "96%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"تلقین",
         image:"https://static.namava.ir/Content/Upload/Images/3a5f7bd5-10d4-4edf-a849-d987d7562a2b.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2010",
+        rating: "95%",
+        doobleh: "دوبله فارسی"
     },
     {
         name:"ارباب حلقه‌ها: بازگشت پادشاه",
         image:"https://static.namava.ir/Content/Upload/Images/1975880c-6198-4d67-9df4-b1713c25dc17.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2003",
+        rating: "94%",
+        doobleh: "دوبله فارسی"
     },
     {
         name:"چرنوبیل",
         image:"https://static.namava.ir/Content/Upload/Images/347358f5-1a2e-45f9-a5b9-32f0d8fa3ee7.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2019",
+        rating: "95%",
+        doobleh: "دوبله نماوا"
     }
   ]
   export const metac = [
@@ -219,30 +319,57 @@ export const namava = [
     {
         name:"قاچاق حشرات",
         image:"https://static.namava.ir/Content/Upload/Images/95956314-60aa-4942-b03d-a56a34de5a96.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2022",
+        rating: "79%",
+        sub: "زیرنویس"
     },
     {
         name:"کاماندی: آخرین پسر روی زمین",
         image:"https://static.namava.ir/Content/Upload/Images/391bc706-a4e5-42a4-9714-33f8aefd0b33.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2021",
+        rating: "66%",
+        sub: "زیرنویس"
     },
     {
         name:"کنستانتین، خانه اسرار",
         image:"https://static.namava.ir/Content/Upload/Images/7f6ad2ba-709e-4860-a788-6b08fed3fe18.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2021",
+        rating: "66%",
+        sub: "زیرنویس"
     },
     {
         name:"وینچسترها",
         image:"https://static.namava.ir/Content/Upload/Images/946d762f-167d-4e9a-877f-54f4d6530084.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "92%",
+        sub: "زیرنویس"
     },
     {
         name:"گنج دزدان دریایی جزیره آداک",
         image:"https://static.namava.ir/Content/Upload/Images/c4e1d3ad-1da5-4592-afcd-91a73d0ec9a3.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "2022",
+        sub: "زیرنویس"
     },
     {
         name:"محاصره رابین هود",
         image:"https://static.namava.ir/Content/Upload/Images/5e4c6758-5014-4fd0-898a-b11d788642f8.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "60%",
+        sub: "زیرنویس"
     },
     {
         name:"روز 27 ساعته",
         image:"https://static.namava.ir/Content/Upload/Images/d1fa6ac6-3467-48ee-80e7-3795e161dc39.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "65%",
+        sub: "زیرنویس"
     }
   ]
   export const updated = [
@@ -286,70 +413,126 @@ export const iranian = [
     {
         name:"آنتن",
         image:"https://static.namava.ir/Content/Upload/Images/de41b9f5-e6e6-45cc-bf9d-7f88ec429ffa.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1401",
+        rating: "88%",
     },
     {
         name:"شبکه مخفی زنان",
         image:"https://static.namava.ir/Content/Upload/Images/28a15bef-6491-44d4-9b5b-e7644d26570d.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1401",
+        rating: "88%",
     },
     {
         name:"روزی روزگاری مریخ",
         image:"https://static.namava.ir/Content/Upload/Images/71360ded-609c-47bc-af91-b1ece23453ca.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1401",
+        rating: "87%",
     },
     {
         name:"13 شمالی",
         image:"https://static.namava.ir/Content/Upload/Images/e6f79894-64b8-420a-817e-9629acbe3599.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1397",
+        rating: "76%",
     },
     {
         name:"جادوگر",
         image:"https://static.namava.ir/Content/Upload/Images/837613cc-16da-4148-945b-fd5459fcfa97.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1400",
+        rating: "87%",
     },
     {
         name:"نوبت لیلی",
         image:"https://static.namava.ir/Content/Upload/Images/755e5041-f856-4d63-b1e9-87bbfcde01ca.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1401",
+        rating: "89%",
     },
     {
         name:"مهمونی",
         image:"https://static.namava.ir/Content/Upload/Images/0f59bbac-4756-4a0b-b1bd-1203ce82a27d.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=588",
+        type: "سریال - ",
+        year: "1401",
+        rating: "93%",
     }
 ]
 export const dooble = [
     {
         name:"وسپر",
         image:"https://static.namava.ir/Content/Upload/Images/48e93de2-975c-460f-bf22-2e0a34a528f4.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "68%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"حقه یا هدیه اسکوبی دو",
         image:"https://static.namava.ir/Content/Upload/Images/a2125326-55a4-4577-86cb-8cb321ec703a.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "96%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"فرای آسمان",
         image:"https://static.namava.ir/Content/Upload/Images/52aa0f20-7da7-4a41-9b49-00cde1b0e5f0.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "فیلم - ",
+        year: "2020",
+        rating: "89%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"سالوم",
         image:"https://static.namava.ir/Content/Upload/Images/6e4e3d80-eb4f-4854-8e9a-469fdec82d12.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "فیلم - ",
+        year: "2021",
+        rating: "67%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"تلاش کردن",
         image:"https://static.namava.ir/Content/Upload/Images/47c75b85-d438-44ec-af08-39fccfaeb149.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "2020",
+        rating: "89%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"کاترین ملقب به پرنده",
         image:"https://static.namava.ir/Content/Upload/Images/1037762f-4f0d-497a-b02c-ecf58790573a.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "87%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"پول باد آورده",
         image:"https://static.namava.ir/Content/Upload/Images/6edfe306-d983-4d5e-85d9-7b3bdfe2ce53.jpg?anchor=middlecenter&crop=auto&scale=both&w=400&h=800",
+        type: "سریال - ",
+        year: "2021",
+        rating: "82%",
+        doobleh: "دوبله نماوا"
     }
 ]
 export const newsForChildren = [
     {
         name:"کینگ",
         image:"https://static.namava.ir/Content/Upload/Images/d329ebc3-c467-42c1-bee6-2914e3454e20.jpg?anchor=middlecenter&crop=auto&scale=both&w=600&h=882",
+        type: "فیلم - ",
+        year: "2022",
+        rating: "88%",
+        doobleh: "دوبله نماوا"
     },
     {
         name:"خانواده گرگ‌ها" ,
         image:"https://static.namava.ir/Content/Upload/Images/1b5c3fd9-1839-4010-ace6-02218075903a.jpg?anchor=middlecenter&crop=auto&scale=both&w=600&h=882",
+        type: "سریال - ",
+        year: "2016",
+        rating: "75%",
     },
     {
         name:"مزرعه شهر للوبی",

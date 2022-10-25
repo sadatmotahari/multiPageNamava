@@ -10,7 +10,7 @@ export default function Long(props){
                     <div className="long-content">
                         <img src={image}/>
                     </div>
-                    <h3 className="name">{name}</h3>
+                    <h3 className="long-name">{name}</h3>
                 </li>
             )
         })

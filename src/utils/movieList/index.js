@@ -3,7 +3,7 @@ export default function MovieList(props){
     const {listName , title} = props ;
     function renderMovies(){
         return listName.map(function(item , index){
-            const {title , name , type , year , rating , image , update, number} = item;
+            const {title , name , type , year , rating , image , number , doobleh, sub} = item;
             return(
 
                 <li className="movieBox" key={index}>
@@ -12,6 +12,7 @@ export default function MovieList(props){
                         <div className="content">
                         <p>{type} {year}</p>
                         <p>{rating}</p>
+                        <p>{doobleh}{sub}</p>
                         </div>
                     </div>
                     <h3 className="name">{name}</h3>

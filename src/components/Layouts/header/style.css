@@ -1,6 +1,10 @@
 .container-full{
-    width: 1200px;
+    max-width: 1200px;
     padding: 10px 30px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1200px;
     margin: 0 auto;
 }
 body{
@@ -55,4 +59,10 @@ a{
 }
 .enter a{
     color: #fff;
+}
+@media screen and (max-width:900px){
+
+    .header-parts .right{
+    display: none;
+    }
 }

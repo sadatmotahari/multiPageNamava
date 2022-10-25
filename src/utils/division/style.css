@@ -13,7 +13,7 @@
     color: #fff;
 }
 .sectionBox .imageContent img{
-    width: 290px;
+    max-width: 290px;
     margin: 5px;
 }
 .sectionBoxes{

@@ -10,34 +10,44 @@
     max-width: 150px;
 }
 .imageContent img{
-    width: 150px;
+    max-width: 150px;
     border-radius: 5px;
 }
-.imageContent img:after{
-    background-color: black;
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
+.imageContent{
+    position: relative;
 }
-.imageContent img:hover:after{
-    opacity: .5;
+.imageContent::after{
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(to top , rgba(0, 0, 0, 0.916) , rgba(0, 0, 0, 0.304));
+    max-width: 100%;
+    height: 100%;
+    z-index: 2;
+    content: "";
+    opacity: 0;
+    transition: all .5s;
+}
+.imageContent:hover:after{
+    opacity: 1;
 }
 .title{
     color: #fff;
 }
 .content{
+    z-index: 5;
+    color: #fff;
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 50%;
     transform: translate(-50% , -50%);
+    opacity: 0;
+    transition: all 0.5s;
+    width: 150px;
 }
-.imageContent{
-    position: relative;
+.imageContent:hover .content{
+    opacity: 1;
 }
+
 .num{
     color: #aaaaaa;
     font-size: 14px;
