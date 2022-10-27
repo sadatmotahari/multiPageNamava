@@ -23,10 +23,16 @@ export default function Header(){
                         </div>
                     </div>
                     <div className="left">
+                        <div className="magnify">
+                        <i className="fa-solid fa-magnifying-glass"></i>
+                        </div>
                         <p>خرید اشتراک</p>
                         <button className="enter"><Link to="/movies">ورود / ثبت‌نام</Link></button>
                     </div>
-                </div>
+                    <div className="mobile-menu">
+                        <i class="fa-solid fa-bars"></i>
+                       </div>
+            </div>
             </div>
         </Fragment>
     );

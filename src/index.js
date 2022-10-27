@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './router';
 import reportWebVitals from './reportWebVitals';
-import './font-face.css'
+import './font-face.css';
+import './fontawesome.css';
+import './brands.css';
+import './solid.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -49,6 +49,7 @@ a{
 .header-parts{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .enter{
     background: none;
@@ -60,9 +61,26 @@ a{
 .enter a{
     color: #fff;
 }
+.magnify i{
+    font-size: 25px;
+}
+.mobile-menu{
+    left: 10;
+    top: 10;
+    font-size: 25px;
+    display: none;
+    margin-left: 10px;
+    color: #fff;
+}
 @media screen and (max-width:900px){
 
-    .header-parts .right{
+    .header-parts .right .menu{
     display: none;
     }
+        .mobile-menu{
+            display: block;
+        }
+        .header-parts .left{
+            display: none;
+        }
 }
